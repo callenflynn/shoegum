@@ -14,20 +14,39 @@
         }
         .box {
             background: #2b2b2b;
-            padding: 25px;
-            width: 400px;
+            padding: 30px;
+            width: 450px;
             margin: auto;
-            border-radius: 10px;
+            border-radius: 12px;
             border: 1px solid #3a3a3a;
         }
-        p {
+        .info {
             font-size: 18px;
+            margin: 15px 0;
         }
-        .ip {
+        .ip, .password {
             font-size: 22px;
             font-weight: bold;
-            margin-top: 15px;
             color: #4da3ff;
+            margin: 10px 0;
+        }
+        em {
+            display: block;
+            margin-top: 15px;
+            font-size: 16px;
+            color: #aaaaaa;
+        }
+        .footer {
+            margin-top: 40px;
+            font-size: 14px;
+            color: #777;
+        }
+        .footer a {
+            color: #4da3ff;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -36,9 +55,17 @@
     <div class="box">
         <h1>ShoeGum</h1>
 
-        <p>Paste the following IP into Unturned to join the server.</p>
+        <p class="info">Paste the following IP into Unturned to join the server:</p>
         <p class="ip">147.185.221.224:34280</p>
-        <p><em>Don't forget the port!</em></p>
+
+        <p class="info">Server Password:</p>
+        <p class="password">Sh0eGum!</p>
+
+        <em>Go to Multiplayer → Connect in Unturned to join Sh0eGum!</em>
+
+        <div class="footer">
+            Affiliate: <a href="https://concord-smp.vercel.app/" target="_blank">Concord SMP</a> (Minecraft Survival Server)
+        </div>
     </div>
 
 </body>
