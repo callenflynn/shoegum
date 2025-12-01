@@ -1,16 +1,17 @@
-Servers
-{
-    Server_0
+Name "ShoeGum Curation"
+IconURL ""
+Labels
+[
+]
+Rules
+[
     {
-        Name "Shoe Gum"
-        Address "147.185.221.224"
-        Port 34280
-        Map "PEI"
-        Mode "Normal"
-        Thumbnail ""
-
-        Rules
-        {
-        }
+        Action Allow
+        Description "Allow Shoe Gum by IPv4"
+        Type IPv4
+        Filters
+        [
+            147.185.221.224:34280
+        ]
     }
-}
+]
