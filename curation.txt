@@ -1,12 +1,12 @@
+Servers
 {
-  "Servers": [
+    Server_0
     {
-      "Name": "Shoe Gum",
-      "Address": "147.185.221.224",
-      "Port": 34280,
-      "Map": "PEI",
-      "Mode": "Normal",
-      "Thumbnail": ""
+        Name "Shoe Gum"
+        Address "147.185.221.224"
+        Port 34280
+        Map "PEI"
+        Mode "Normal"
+        Thumbnail ""
     }
-  ]
 }
