@@ -8,5 +8,9 @@ Servers
         Map "PEI"
         Mode "Normal"
         Thumbnail ""
+
+        Rules
+        {
+        }
     }
 }
