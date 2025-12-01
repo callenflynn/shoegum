@@ -1,7 +1,7 @@
 {
   "Servers": [
     {
-      "Name": "My Custom Server",
+      "Name": "SHOEGUM",
       "Address": "147.185.221.224",
       "Port": 34280,
       "Map": "",
