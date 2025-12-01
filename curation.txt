@@ -1,0 +1,12 @@
+{
+  "Servers": [
+    {
+      "Name": "My Custom Server",
+      "Address": "147.185.221.224",
+      "Port": 34280,
+      "Map": "",
+      "Mode": "",
+      "Thumbnail": ""
+    }
+  ]
+}
